@@ -13,7 +13,7 @@ mu is a floating point number between 0 and 1. My script will then
 introduce noise into the picture with probability mu, and run the 
 Loopy BP algorithm to denoise the picture. The script then displays the 
 picture using Numpy and Matplotlib, and it outputs the fraction error:
-# pixels changed from original / total # pixels
+<Number of pixels changed from original> / <total number of pixels>
 
 To reconstruct some of the plots from my write-up, scroll to the bottom
 of hw6.py, where I have indicated which lines you can uncomment. 
