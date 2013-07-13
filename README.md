@@ -7,7 +7,7 @@ image processing algorithms.
 hw6.pdf: My write-up
 
 The main hw6.py file requires two command line arguments:
-> python hw6.py <image_filepath> <mu value>
+<image_filepath> <mu value>
 where image_filepath is a path to an ASCII binary image file, and
 mu is a floating point number between 0 and 1. My script will then 
 introduce noise into the picture with probability mu, and run the 
